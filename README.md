@@ -20,6 +20,7 @@ def main():
     # Замените на ваш API ключ и секретный ключ
     api_key = "your api key"
     secret_key = "your secret key"
+    # апи url для fusionbrain можно указать свой
     url = "https://api-key.fusionbrain.ai/"
     # Описание изображения для генерации
     prompt = "A beautiful sunset over the ocean"
@@ -48,7 +49,10 @@ if __name__ == "__main__":
 ```
 Пример готового изображения 
 ![My Image](images/generated_image.png)
-
+Документация по api Kandinsky
+```
+https://fusionbrain.ai/docs/ru/doc/api-dokumentaciya/
+```
 Описание параметров:
 api_key: Ваш API ключ.
 secret_key: Ваш секретный ключ.
