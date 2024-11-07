@@ -46,6 +46,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+Пример готового изображения 
+![My Image](images/generated_image.png)
 
 Описание параметров:
 api_key: Ваш API ключ.
