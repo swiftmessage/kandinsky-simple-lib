@@ -5,7 +5,9 @@
 ## Установка
 
 Для использования библиотеки, сначала установите её с помощью `pip`:
-
+```
+https://pypi.org/project/kandinsky-simple-lib/
+```
 ```bash
 pip install kandinsky-simple-lib
 ```
