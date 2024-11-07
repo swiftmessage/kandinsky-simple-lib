@@ -6,7 +6,7 @@ from io import BytesIO
 from PIL import Image
 
 class KandinskyAPI:
-    def __init__(self, api_key, secret_key, url='https://api-key.fusionbrain.ai/'):
+    def __init__(self, api_key, secret_key, url):
         """
         Инициализация API-клиента Kandinsky.
 

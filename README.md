@@ -1,13 +1,13 @@
-# kandinsky-lib
+# kandinsky-simple-lib
 
-`kandinsky-lib` — это простая библиотека для создания изображений с помощью API Kandinsky. Она позволяет генерировать изображения на основе текстовых описаний, взаимодействуя с API, и сохранять их на вашем устройстве.
+`kandinsky-simple-lib` — это простая библиотека для создания изображений с помощью API Kandinsky. Она позволяет генерировать изображения на основе текстовых описаний, взаимодействуя с API, и сохранять их на вашем устройстве.
 
 ## Установка
 
 Для использования библиотеки, сначала установите её с помощью `pip`:
 
 ```bash
-pip install kandinsky-lib
+pip install kandinsky-simple-lib
 ```
 
 примеры
@@ -16,14 +16,14 @@ pip install kandinsky-lib
 from kandinsky_lib import KandinskyAPI
 def main():
     # Замените на ваш API ключ и секретный ключ
-    api_key = "your_api_key"
-    secret_key = "your_secret_key"
-
+    api_key = "your api key"
+    secret_key = "your secret key"
+    url = "https://api-key.fusionbrain.ai/"
     # Описание изображения для генерации
     prompt = "A beautiful sunset over the ocean"
 
     # Создаем объект API с вашими ключами
-    api = KandinskyAPI(api_key, secret_key)
+    api = KandinskyAPI(api_key, secret_key, url)
 
     # Получаем ID доступной модели
     model_id = api.get_model()
